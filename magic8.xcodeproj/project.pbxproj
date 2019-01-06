@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47CCA20921E2914B00A9F312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CCA20821E2914B00A9F312 /* AppDelegate.swift */; };
-		47CCA20B21E2914B00A9F312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CCA20A21E2914B00A9F312 /* ViewController.swift */; };
+		47CCA20B21E2914B00A9F312 /* MagicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CCA20A21E2914B00A9F312 /* MagicVC.swift */; };
 		47CCA20E21E2914B00A9F312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CCA20C21E2914B00A9F312 /* Main.storyboard */; };
 		47CCA21021E2914B00A9F312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CCA20F21E2914B00A9F312 /* Assets.xcassets */; };
 		47CCA21321E2914B00A9F312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CCA21121E2914B00A9F312 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		47CCA20521E2914B00A9F312 /* magic8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magic8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CCA20821E2914B00A9F312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47CCA20A21E2914B00A9F312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47CCA20A21E2914B00A9F312 /* MagicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicVC.swift; sourceTree = "<group>"; };
 		47CCA20D21E2914B00A9F312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47CCA20F21E2914B00A9F312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47CCA21221E2914B00A9F312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				47CCA20821E2914B00A9F312 /* AppDelegate.swift */,
-				47CCA20A21E2914B00A9F312 /* ViewController.swift */,
+				47CCA20A21E2914B00A9F312 /* MagicVC.swift */,
 				47CCA20C21E2914B00A9F312 /* Main.storyboard */,
 				47CCA20F21E2914B00A9F312 /* Assets.xcassets */,
 				47CCA21121E2914B00A9F312 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47CCA20B21E2914B00A9F312 /* ViewController.swift in Sources */,
+				47CCA20B21E2914B00A9F312 /* MagicVC.swift in Sources */,
 				47CCA20921E2914B00A9F312 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQLDC32ZJ8;
 				INFOPLIST_FILE = magic8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQLDC32ZJ8;
 				INFOPLIST_FILE = magic8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
